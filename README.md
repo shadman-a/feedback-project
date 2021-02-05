@@ -1,5 +1,10 @@
 # Displaying User Feedback .
+
 ## DESCRIPTION
+
+In this project we created a rest web service using springboot. We created the rest endpoint /feedback where we added a get and post mapping. This allows us to add and see the feedback that we were making. The endpoint was tested with postman. After it was working we added a frontend employing vanilla JS and HTML. The fetch api was used to fetch from the API. A form was created to provide feedback.
+
+---------------------
 
 ## Project objective:
 
