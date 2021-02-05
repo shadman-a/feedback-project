@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container">
+      <br/>
+      <form id="form">
+        <div id="new-feedback" class="form-group">
+          <label>Enter Feedback</label>
+          <input type="number" class="form-control" id="rating" placeholder="rating">
+          <br/>
+          <input type="text" class="form-control" id="comment" placeholder="comments">
+        </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br/>
+    <h2>Feedback Received</h2>
+    <br/>
+    <div id="feedback-container"></div>
+    </div>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
