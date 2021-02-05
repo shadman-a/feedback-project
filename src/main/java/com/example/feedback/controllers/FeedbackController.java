@@ -15,8 +15,7 @@ public class FeedbackController {
 
 
     @GetMapping("/")
-    public String showServiceName()
-    {
+    public String showServiceName() {
         return "Feedback";
     }
 
@@ -26,19 +25,13 @@ public class FeedbackController {
     }
 
     @GetMapping("/feedback/{id}")
-    public Feedback showFeedbackById(@PathVariable Integer id)
-    {
-        // TODO: Add error handling
-
+    public Feedback showFeedbackById(@PathVariable Integer id) {
         return repo.findById(id).get();
-
     }
 
 
     @PostMapping("/feedback")
     public Feedback addFeedback(@RequestBody Feedback newFeedback) {
-
-        //TODO: Add error handling
 
         return repo.save(newFeedback);
     }
